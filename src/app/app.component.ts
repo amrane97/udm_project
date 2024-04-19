@@ -9,11 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'udm-app';
 
-  loadedFeature = 'recipe';
-
-  onNavigate(x:string) {
-    this.loadedFeature = x;
-  }
-
 
 }
